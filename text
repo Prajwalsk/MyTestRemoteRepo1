@@ -1,0 +1,28 @@
+===== GIT COMMANDS =====
+
+Working with Branches ::
+		
+			create branch
+			
+				git branch 			# list the branches				
+				
+				git branch <branch name> 	# Just Create New Branch				
+				
+				git switch <branch_name>	# to switch to another branch
+				
+				git switch -c <new branch_name> # to create and switch to new branch
+				
+				git checkout -b <new branch_name> # to create and switch to new branch	
+
+
+    How to fix the Merge Conflict :::
+			
+				- Identify the file(s) causing the Merge Conflict in Target Branch
+				- Open and review the file content in the target branch
+				- Decide which user's/feature's to be retained/removed from that target branch
+				- Update the file in target branch by removing the header and footer tag lines
+				- Add and Commit the Changes in Target Branch
+			
+			
+			Prevent Merge Conflicts :::
+				- With proper collaboration and review.
